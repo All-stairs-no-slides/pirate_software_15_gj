@@ -6,7 +6,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"enemy_par_obj","path":"objects/enemy_par_obj/enemy_par_obj.yy",},"propertyId":{"name":"shoot_time","path":"objects/enemy_par_obj/enemy_par_obj.yy",},"value":"3",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
@@ -36,8 +38,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "placeholder1_spr",
-    "path": "sprites/placeholder1_spr/placeholder1_spr.yy",
+    "name": "lava_en_obj",
+    "path": "sprites/lava_en_obj/lava_en_obj.yy",
   },
   "spriteMaskId": null,
   "visible": true,

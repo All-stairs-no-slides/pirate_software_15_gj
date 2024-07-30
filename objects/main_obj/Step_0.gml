@@ -6,8 +6,10 @@ if(mouse_check_button_pressed(mb_left))
 	_controller.connector = true
 }
 
-
-
+if(!instance_exists(enemy_par_obj))
+{
+	room_goto(end_rm)
+}
 
 
 

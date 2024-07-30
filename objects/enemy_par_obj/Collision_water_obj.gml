@@ -8,14 +8,7 @@ var _totaldiff = (abs(_xdiff) + abs(_ydiff))
 if(_totaldiff >= 3 && other.canhit){
 	other.canhit = false
 	other.alarm[0] =  0.5 * game_get_speed(gamespeed_fps)
-	health -= 1
+	hp -= 1
 }
-
-
-
-
-
-
-
 
 

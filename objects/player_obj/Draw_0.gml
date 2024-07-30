@@ -1,5 +1,4 @@
 draw_self()
-
 //if(!surface_exists(water_surface)){
 //	water_surface = surface_create(room_width, room_height)
 //}

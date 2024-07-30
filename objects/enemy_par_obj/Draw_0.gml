@@ -3,7 +3,7 @@
 
 
 draw_self();
-draw_text_ext(x, y + sprite_height - 32, health, 6, 100)
+draw_text_ext(x, y - sprite_height - 32, hp, 6, 100)
 
 
 
